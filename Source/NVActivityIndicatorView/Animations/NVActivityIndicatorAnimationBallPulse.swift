@@ -29,8 +29,8 @@ import UIKit
 
 class NVActivityIndicatorAnimationBallPulse: NVActivityIndicatorAnimationDelegate {
     func setUpAnimation(in layer: CALayer, size: CGSize, color: UIColor) {
-        let circleSpacing: CGFloat = 2
-        let circleSize: CGFloat = (size.width - 2 * circleSpacing) / 3
+        let circleSpacing: CGFloat = 5
+        let circleSize: CGFloat = (size.width - 2 * circleSpacing) / 4
         let x: CGFloat = (layer.bounds.size.width - size.width) / 2
         let y: CGFloat = (layer.bounds.size.height - circleSize) / 2
         let duration: CFTimeInterval = 0.75
